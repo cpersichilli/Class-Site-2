@@ -1,0 +1,245 @@
+body {
+    height: auto;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+#cleanercap {
+    width: 30px;
+    height: 40px;
+    background-color: darkgrey;
+    position: absolute;
+    top: 89px;
+    left: 320px;
+}
+
+#cleanerhandle {
+    width: 10px;
+    height: 30px;
+    background-color: lightgray;
+    position: absolute;
+    top: 115px;
+    left: 330px;
+}
+
+#cleanerspray {
+    width: 15px;
+    height: 15px;
+    background-color: lightgray;
+    position: absolute;
+    top: 95px;
+    left: 327px;
+}
+
+#cleanertop {
+    width: 70px;
+	height: 70px;
+    background: linear-gradient(to right, orange , yellow);
+
+/*	background: orange;*/
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    position: absolute;
+    left: 300px;
+    top: 125px;
+}
+
+#cleaner {
+    width: 70px;
+    height: 120px;
+    background: linear-gradient(to right, orange , yellow);
+
+/*    background-color: orange;*/
+    position: absolute;
+    top: 165px;
+    left: 300px;
+    z-index: 5;
+}
+
+#cleanerbottom {
+    width: 70px;
+	height: 15px;
+    background: linear-gradient(to right, orange , yellow);
+
+/*	background: orange;*/
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 20px;
+    position: absolute;
+    left: 300px;
+    top: 279px;
+    z-index: 4;
+}
+
+#bottle {
+    width: 50px;
+    height: 130px;
+    background-color: aliceblue;
+    position: relative;
+    left: 200px;
+    top: 109px;
+
+}
+
+#bottlecap {
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    position: absolute;
+    top: 321px;
+    left: 222px
+}
+
+#bottletop {
+    width: 50px;
+	height: 50px;
+	background: aliceblue;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    position: absolute;
+    left: 208px;
+    top: 340px;
+}
+
+#bottlebottom {
+    width: 50px;
+	height: 10px;
+	background: aliceblue;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 20px;
+    position: relative;
+    left: 200px;
+    top: 105px;
+}
+
+#towel {
+    height: 200px;
+    width: 150px;
+    background-color: antiquewhite;
+    position: relative;
+    left: 270px;
+    top: 290px;
+    z-index: 2;
+}
+
+#oval {
+	width: 150px;
+	height: 50px;
+	background: antiquewhite;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 13px;
+    position: relative;
+    top: 250px;
+    left: 270px;
+}
+
+#ovaltwo {
+    width: 150px;
+	height: 50px;
+	background-color:floralwhite;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 13px;
+    position: absolute;
+    top: 280px;
+    left: 278px;
+    z-index: 1;
+/*    opacity: 0.*/
+}
+
+
+
+#screen {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(black, darkslategrey);
+
+/*    background-color: darkslategrey;*/
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    z-index: 2;
+    border-radius: 10px
+}
+
+#frame {
+    width: 230px;
+    height: 230px;
+    background-color: dimgrey;
+    position: absolute;
+    left: 485px;
+    top: 135px;
+    z-index: 1;
+    border-radius: 10px
+}
+
+#computer {
+    width: 300px;
+    height: 400px;
+    background-color: darkgrey;
+    position: absolute;
+    left: 450px;
+    top: 100px;
+    border-radius: 15px;
+}
+
+#grate {
+    width: 250px;
+    height: 5px;
+    background-color: dimgrey;
+    position: absolute;
+    z-index: 3;
+    left: 475px;
+    top: 400px
+}
+
+#gratetwo {
+    width: 250px;
+    height: 5px;
+    background-color: dimgrey;
+    position: absolute;
+    z-index: 3;
+    left: 475px;
+    top: 410px
+}
+
+#gratethree {
+    width: 250px;
+    height: 5px;
+    background-color: dimgrey;
+    position: absolute;
+    z-index: 3;
+    left: 475px;
+    top: 420px
+}
+
+#gratefour {
+    width: 250px;
+    height: 5px;
+    background-color: dimgrey;
+    position: absolute;
+    z-index: 3;
+    left: 475px;
+    top: 430px
+}
+#gratefive {
+    width: 250px;
+    height: 5px;
+    background-color: dimgrey;
+    position: absolute;
+    z-index: 3;
+    left: 475px;
+    top: 440px
+}
+
+#logo {
+    
+}
+
+
+
+

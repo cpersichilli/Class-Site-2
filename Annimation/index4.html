@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+  <title></title>
+  <meta charset = "UTF-8" />
+</head>
+<body>
+    <div id="myDIV">
+    </div>
+</body>
+</html>
+
+<style> 
+#myDIV {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    color: white;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    50% {box-shadow: 10px 20px 30px orange;}
+}
+
+@keyframes mymove {
+    50% {box-shadow: 10px 20px 30px orange;}
+}
+</style>
