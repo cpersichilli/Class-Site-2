@@ -27,3 +27,64 @@ audio {
     position: absolute;
     
 }
+
+.text {
+    width: 20px;
+    height 30px;
+    background-color: white;
+    position: absolute;
+}
+
+.one {
+    position: absolute;
+    left: 20px;
+/*    display: none;*/
+}
+.two {
+    position: absolute;
+    left: 300px;
+/*    display: none;*/
+}
+.three {
+    position: absolute;
+    left: 700px;
+/*    display: none;*/
+}
+.four {
+    position: absolute;
+    left: 20px;
+    top: 50px;
+/*    display: none;*/
+}
+.five {
+    position: absolute;
+    left: 150px;
+    top: 400px;
+/*    display: none;*/
+}
+.six {
+    position: absolute;
+    left: 600px;
+    top: 500px;
+/*    display: none;*/
+}
+.seven {
+    position: absolute;
+    left: 550px;
+    top: 10px;
+/*    display: none;*/
+}
+
+.eight {
+    position: absolute;
+    left: 400px;
+    top: 450px;
+/*    display: none;*/
+}
+
+.nine {
+    position: absolute;
+    left: 220px;
+    top: 5px;
+/*    display: none;*/
+}
