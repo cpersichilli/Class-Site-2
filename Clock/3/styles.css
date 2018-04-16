@@ -1,0 +1,141 @@
+#one {
+    width: 1200px;
+    height: 1200px;
+    background-color: orange;
+    border-radius: 1100px;
+    position: absolute;
+    z-index: 6;
+    top: 50%;
+    left: 50%;
+    transform: translate(-15%, -10%);
+    animation: one 2s infinite;
+}
+
+@keyframes one {
+    0% {
+    background-color: orange;
+  }
+    
+    10% {
+    background-color: #ffffff;
+  }
+}
+
+#two {
+    width: 1200px;
+    height: 1200px;
+    background-color: lightgreen;
+    border-radius: 1100px;
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -100%);
+    animation: two 4s infinite;
+}
+
+@keyframes two {
+    0% {
+    background-color: lightgreen;
+  }
+    
+    10% {
+    background-color: #ffffff;
+  }
+}
+
+
+#three {
+    width: 1200px;
+    height: 1200px;
+    background-color: rebeccapurple;
+    border-radius: 1100px;
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -40%);
+    animation: three 6s infinite;
+}
+
+@keyframes three {
+    0% {
+    background-color: rebeccapurple;
+  }
+    
+    10% {
+    background-color: #ffffff;
+  }
+}
+
+
+#four {
+    width: 1000px;
+    height: 1000px;
+    background-color: yellow;
+    border-radius: 900px;
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -90%);
+    animation: four 8s infinite;
+}
+
+@keyframes four {
+    0% {
+    background-color: yellow;
+  }
+    
+    10% {
+    background-color: #ffffff;
+  }
+}
+
+#five {
+    width: 900px;
+    height: 900px;
+    background-color: palevioletred;
+    border-radius: 800px;
+    position: absolute;
+    z-index: 12;
+    top: 50%;
+    left: 50%;
+    transform: translate(-130%, -10%);
+    animation: five 10s infinite;
+}
+
+@keyframes five {
+    0% {
+    background-color: palevioletred;
+  }
+    
+    10% {
+    background-color: #ffffff;
+  }
+}
+
+#six {
+    width: 1200px;
+    height: 1200px;
+    background-color: dodgerblue;
+    border-radius: 1100px;
+    position: absolute;
+    z-index: 12;
+    top: 50%;
+    left: 50%;
+    transform: translate(15%, -100%);
+    animation: six 12s infinite;
+}
+
+@keyframes six {
+    0% {
+    background-color: dodgerblue;
+  }
+    
+    10% {
+    background-color: #ffffff;
+  }
+}
+
+

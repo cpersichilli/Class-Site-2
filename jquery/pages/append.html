@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+        </script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="text/javascript" src="script.js"></script>
+	</head>
+<body>
+    <button id="add">Add</button>
+    <ol id="list">
+        <li>Item</li>
+    </ol>
+    
+    <button id="myBtn">Add Element</button>
+
+    <section id="wrapper"></section>
+</body>    
+    
+<script>
+     var btnAdd = document.getElementById('add');
+    btnAdd.addEventListener("click", addElement, false);
+
+    function addElement()
+    {
+        var olList = document.getElementById('list');
+        var newListItem = document.createElement('li');
+        newListItem.innerText = 'New Item';
+        olList.appendChild(newListItem);
+    } 
+    
+    var count = 1;
+
+$('#myBtn').click(function(){
+
+    var div = $('<div></div>');
+    
+    div.html(count);
+    
+    div.appendTo('#wrapper');
+    
+    count = count + 1;
+
+});
+</script>
+    
+<style>
+    div {
+    font-size: 34px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 100px;
+    background: black;
+    float: left;
+    margin: 10px;
+    }
+</style>  

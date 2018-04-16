@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+        </script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="text/javascript" src="script.js"></script>
+	</head>
+<body>
+      <p id="p1">This is a paragraph. You should probably hover here...</p>         
+</body>    
+    
+<script>
+     $(document).ready(function(){
+        $("#p1").hover(function(){
+        alert("GOOD JOB! You entered p1!");
+    },
+    function(){
+        alert("Bye! You are now leaving p1!");
+    }); 
+    });  
+</script>
+    
+<style>
+    
+</style>  

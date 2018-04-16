@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+        </script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="text/javascript" src="script.js"></script>
+	</head>
+<body>
+    <button>Toggle</button>
+    <p>Hello</p>
+    <p class="hidden">Goodbye</p>           
+</body>    
+    
+<script>
+    $('button').click(function() {
+        $('p').toggle();
+    });    
+</script>
+    
+<style>
+    .hidden {
+    display: none;
+    color: whitesmoke;
+    }
+    
+    p {
+        font-size: 100px;
+        font-family: sans-serif;
+        color: yellow;
+    }
+    
+    button {
+        background-color: whitesmoke;
+        color: darkgrey;
+    }
+</style>  

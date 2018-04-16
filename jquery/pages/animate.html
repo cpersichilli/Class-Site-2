@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+        </script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="text/javascript" src="script.js"></script>
+	</head>
+<body>
+  <div id="block"></div>
+  <button id="go">&raquo; Run</button>  
+</body>    
+    
+<script>
+    $("#go").click(function(){
+  var dest = parseInt($("#block").css("margin-left").replace("px", "")) + 100;
+    if (dest > 500) {
+        $("#block").animate({
+            marginLeft: "10px"
+          }, 500 );
+    }
+    else {
+      $("#block").animate({
+        marginLeft: dest + "px"
+      }, 500 );
+    }
+});
+
+
+    
+</script>
+    
+<style>
+    div { width: 20px; height: 20px; background: cornflowerblue; border-radius: 10px; margin: 10px; }
+    
+    button {
+        background: cornflowerblue;
+        color: white;
+    }
+</style>  
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+        </script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="text/javascript" src="script.js"></script>
+	</head>
+<body>
+<!-- fadeIn, fadeOut dan fadeTo -->
+<button class="hilang">Goodbye!</button>
+<button class="muncul">Hello!</button>
+<button class="fd-to">FadeTo 0.5</button>
+<button class="fd-to1">Reset</button>
+<div id="target"></div>           
+</body>    
+    
+<script>
+        $('.hilang').click(function() {
+            $('#target').fadeOut('normal');
+        });
+
+        $('.muncul').click(function() {
+            $('#target').fadeIn('normal');
+        });
+
+        $('.fd-to').click(function() {
+            $('#target').fadeTo('fast', 0.5);
+        });
+
+        $('.fd-to1').click(function() {
+            $('#target').fadeTo(1000, 1);
+        });
+</script>
+    
+<style>
+    body {padding:30px;}
+
+    #target {
+      background:blueviolet;
+      margin-bottom:15px;
+      height:200px;
+      padding:5px;
+    }
+    
+    button {
+        color: white;
+        background-color: blueviolet;
+        padding: 5px;
+        margin: 20px;
+        border-radius: 10px;
+    }
+</style>    

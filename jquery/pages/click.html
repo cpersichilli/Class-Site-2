@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+        </script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="text/javascript" src="script.js"></script>
+	</head>
+<body>
+    <button>Let's go</button>
+
+    <div class="announcement">
+       <span><em>Breaking news:</em> jQuery... <span style="color: whitesmoke">is the devil</span></span>
+    </div>         
+</body>    
+    
+<script>
+     $('button').click(function() {
+        $('.announcement').toggle();
+     });  
+</script>
+    
+<style>
+    .announcement {
+    display: none;
+    background: azure; 
+    margin-top: 40px;
+    font-size: 24px;
+    padding: 6px;
+    }
+</style>  

@@ -1,0 +1,256 @@
+body {
+    max-height: 1300px;
+    background-color: #FFFFFF;
+}
+
+#one {
+    width: 20px;
+    height: 20px;
+    background-color: #FF6E6E;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 12;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: one 2s infinite;
+}
+
+@keyframes one {
+    0% {
+    background-color: #FF6E6E;
+  }
+    
+    10% {
+    background-color: #ffffff;
+  }
+}
+
+#two {
+    width: 80px;
+    height: 80px;
+    background-color: #FF7D7D;
+    border-radius: 70px;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: one 3s infinite;
+}
+
+@keyframes two {
+    0% {
+    background-color: #FF7D7D;
+  }
+    
+    10% {
+    background-color: #ffffff;
+  }
+}
+
+#three {
+    width: 200px;
+    height: 200px;
+    background-color: #FF9292;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: one 4s infinite;
+
+}
+
+@keyframes three {
+    0% {
+    background-color: #FF9292;
+  }
+    
+    10% {
+    background-color: #ffffff;
+  }
+}
+
+#four {
+    width: 400px;
+    height: 400px;
+    background-color: #FFA4A4;
+    border-radius: 300px;
+    position: absolute;
+    z-index: 8;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: one 5s infinite;
+
+}
+
+@keyframes four {
+    0% {
+    background-color: #FFA4A4;
+  }
+    
+    10% {
+    background-color: #ffffff;
+  }
+}
+
+#five {
+    width: 600px;
+    height: 600px;
+    background-color: #FFB6B6;
+    border-radius: 500px;
+    position: absolute;
+    z-index: 7;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: one 6s infinite;
+    
+}
+
+@keyframes five {
+    0% {
+    background-color: #FFB6B6;
+  }
+    
+    10% {
+    background-color: #ffffff;
+  }
+}
+
+#six {
+    width: 800px;
+    height: 800px;
+    background-color: #FFC5C5;
+    border-radius: 700px;
+    position: absolute;
+    z-index: 6;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: one 7s infinite;
+    
+}
+
+@keyframes six {
+    0% {
+    background-color: #FFC5C5;
+  }
+    
+    10% {
+    background-color: #ffffff;
+  }
+}
+
+#seven {
+    width: 1000px;
+    height: 1000px;
+    background-color: #FCD0D0;
+    border-radius: 900px;
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: one 8s infinite;
+    
+}
+
+@keyframes seven {
+    0% {
+    background-color: #FCD0D0;
+  }
+    
+    10% {
+    background-color: #ffffff;
+  }
+}
+
+#eight {
+    width: 1200px;
+    height: 1200px;
+    background-color: #FCDEDE;
+    border-radius: 1100px;
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: one 9s infinite;
+    
+}
+
+@keyframes eight {
+    0% {
+    background-color: #FCDEDE;
+  }
+    
+    10% {
+    background-color: #ffffff;
+  }
+}
+
+#nine {
+    width: 1400px;
+    height: 1400px;
+    background-color: #FCEBEB;
+    border-radius: 1300px;
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: one 10s infinite;
+    
+}
+
+@keyframes nine {
+    0% {
+    background-color: #FCEBEB;
+  }
+    
+    10% {
+    background-color: #ffffff;
+  }
+}
+
+#ten {
+    width: 1600px;
+    height: 1600px;
+    background-color: #FCF5F5;
+    border-radius: 1500px;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: one 11s infinite;
+    
+}
+
+@keyframes ten {
+    0% {
+    background-color: #FCF5F5;
+  }
+    
+    10% {
+    background-color: #ffffff;
+  }
+}
+
+#eleven {
+    width: 1800px;
+    height: 1800px;
+    background-color: #FFFFFF;
+    border-radius: 1700px;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: one 12s infinite;
+
+}

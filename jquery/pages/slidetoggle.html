@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+        </script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="text/javascript" src="script.js"></script>
+	</head>
+<body>
+    <div class="week">
+    <div class="title">Week 1</div>
+    <div class="content">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam leo nec dui laoreet iaculis. Nunc congue cursus ultrices. Quisque at arcu nec nibh fringilla malesuada. Donec rutrum accumsan porta. Quisque pellentesque pulvinar elit ac interdum. Sed tristique mauris quis enim cursus, quis ornare augue lobortis. Sed volutpat quis arcu sit amet euismod. Sed a enim porta, tempus odio eget, consectetur tortor.
+    </div>
+</div>
+
+<div class="week">
+    <div class="title">Week 2</div>
+    <div class="content">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam leo nec dui laoreet iaculis. Nunc congue cursus ultrices. Quisque at arcu nec nibh fringilla malesuada. Donec rutrum accumsan porta. Quisque pellentesque pulvinar elit ac interdum. Sed tristique mauris quis enim cursus, quis ornare augue lobortis. Sed volutpat quis arcu sit amet euismod. Sed a enim porta, tempus odio eget, consectetur tortor.
+    </div>
+</div>
+
+<div class="week">
+    <div class="title">Week 3</div>
+    <div class="content">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam leo nec dui laoreet iaculis. Nunc congue cursus ultrices. Quisque at arcu nec nibh fringilla malesuada. Donec rutrum accumsan porta. Quisque pellentesque pulvinar elit ac interdum. Sed tristique mauris quis enim cursus, quis ornare augue lobortis. Sed volutpat quis arcu sit amet euismod. Sed a enim porta, tempus odio eget, consectetur tortor.
+    </div>
+</div>           
+</body>    
+    
+<script>
+      $('.title').click(function(){
+        $(this).parents('.week').find('.content').slideToggle();
+      });
+</script>
+    
+<style>
+    body {
+    margin: 0;
+}
+
+.title {
+    border-bottom: 1px solid black;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.title:hover {
+    background-color: aquamarine;
+}
+
+.content {
+    padding: 20px;
+    display: none;
+    border-bottom: 1px solid black;
+}
+</style>  

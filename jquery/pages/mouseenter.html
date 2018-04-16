@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+        </script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="text/javascript" src="script.js"></script>
+	</head>
+<body>
+    <div class="red-circle"></div>
+
+    <div class="blue-square"></div>         
+</body>    
+    
+<script>
+     $('.red-circle').mouseenter(function() {
+        $('.blue-square').fadeOut();
+     });
+
+    $('.red-circle').mouseleave(function() {
+        $('.blue-square').fadeIn();
+    });  
+    
+    $('.blue-square').mouseenter(function() {
+        $('.red-circle').fadeOut();
+     });
+
+    $('.blue-square').mouseleave(function() {
+        $('.red-circle').fadeIn();
+    }); 
+</script>
+    
+<style>
+    .red-circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    }
+
+    .blue-square {
+    height: 50px;
+    width: 50px;
+    background: blue;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    }
+</style>  

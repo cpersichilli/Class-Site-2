@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+        </script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="text/javascript" src="script.js"></script>
+	</head>
+<body>
+    <p>Scroll in this window please...</p>          
+</body>    
+    
+<script>
+       $(window).scroll(function() {
+            alert('You just scrolled!');
+       });
+</script>
+    
+<style>
+    body {
+        height: 5000px;
+    }
+    
+    p {
+        font-size: 8px;
+    }
+</style>  

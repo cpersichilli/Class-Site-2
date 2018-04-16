@@ -1,0 +1,72 @@
+/*
+body {
+    background-image:url('colors2.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+*/
+
+
+.element {
+  width: 110%;
+  height: 110%;
+  animation: pulse 10s infinite;
+  animation-direction: alternate;
+  left: -10px;
+  top: -10px;    
+}
+
+@keyframes pulse {
+    0% {
+    background-color: #ffffff;
+  }
+    
+    10% {
+    background-color: #D3D3D3;
+  }
+
+    20% {
+    background-color: #A0A0A0;
+  }
+
+    30% {
+    background-color: #666666;
+  }
+
+    40% {
+    background-color: #2D2D2D;
+  }
+
+    50% {
+    background-color: #000000;
+  }
+
+    60% {
+    background-color: #2D2D2D;
+  }
+
+    70% {
+    background-color: #666666;
+  }
+
+    80% {
+    background-color: #A0A0A0;
+  }
+
+    90% {
+    background-color: #D3D3D3;
+  }
+
+    100% {
+    background-color: #ffffff;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+

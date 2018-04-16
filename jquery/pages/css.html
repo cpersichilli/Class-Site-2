@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+        </script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="text/javascript" src="script.js"></script>
+	</head>
+<body>
+    <button>
+    Click me to party
+    </button>           
+</body>    
+    
+<script>
+    var state = 'off';
+
+    $('button').click(function(){
+
+        if(state == 'off'){
+          // turn on the lights
+          $('body').css('background','yellow');
+          state = 'on';
+        }
+
+        else {
+          // turn off the lights
+          $('body').css('background','chartreuse');
+          state = 'off';
+        }    
+
+    });       
+</script>
+    
+<style>
+    body {
+        background: black; 
+    }
+
+    
+    
+    
+</style>  
