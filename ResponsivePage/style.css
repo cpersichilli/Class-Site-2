@@ -1,0 +1,56 @@
+body
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1500px) {
+    body {
+        background-color: lightseagreen;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: darkturquoise;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: mediumturquoise;
+    }
+	
+}
+
+
+
+@media screen and (max-width: 600px) {
+	body {
+        background-color: turquoise;
+    }
+	
+}
+
+
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: paleturquoise;
+    }
+	
+}
+
+
+@media screen and (max-width: 320px) {
+    body {
+        background-color: azure;
+    }
+}
+
+
