@@ -1,0 +1,215 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#des {
+    position: absolute;
+    z-index: 0;
+    transform: translate(180%, 950%);
+}
+
+
+#one {
+    height: 100px;
+    width: 200px;
+    background-color: #FF6E6E;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    
+}
+
+#pone {
+    padding-left: 45px;
+    padding-top: 25px;
+    font-family: sans-serif;
+    color: grey;
+}
+
+#two {
+    height: 100px;
+    width: 200px;
+    background-color: #FF7D7D;
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    
+}
+
+#three {
+    height: 100px;
+    width: 200px;
+    background-color: #FF9292;
+    position: fixed;
+    top: 200px;
+    left: 0px;
+    
+}
+
+#four {
+    height: 100px;
+    width: 200px;
+    background-color: #FFA4A4;
+    position: fixed;
+    top: 300px;
+    left: 0px;
+    
+}
+
+#five {
+    height: 100px;
+    width: 200px;
+    background-color: #FFB6B6;
+    position: fixed;
+    top: 400px;
+    left: 0px;
+    
+}
+#six {
+    height: 100px;
+    width: 200px;
+    background-color: #FFC5C5;
+    position: fixed;
+    top: 500px;
+    left: 0px;
+    
+}
+
+#seven {
+    height: 100px;
+    width: 200px;
+    background-color: #FCD0D0;
+    position: fixed;
+    top: 600px;
+    left: 0px;
+    
+}
+
+#eight {
+    height: 100px;
+    width: 200px;
+    background-color: #FCDEDE;
+    position: fixed;
+    top: 700px;
+    left: 0px;
+    
+}
+
+#nine {
+    height: 100px;
+    width: 200px;
+    background-color: #FCEBEB;
+    position: fixed;
+    top: 800px;
+    left: 0px;
+    
+}
+
+#ten {
+    height: 100px;
+    width: 200px;
+    background-color: #FCF5F5;
+    position: fixed;
+    top: 900px;
+    left: 0px;
+    
+}
+
+#eleven {
+    height: 100px;
+    width: 200px;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 1000px;
+    left: 0px;
+    
+}
+
+#proj1 {
+    width: 1600px;
+    height: 900px;
+    background-color: firebrick;
+    position: absolute;
+    transform: translate(15%, -3%);
+}
+
+#proj2 {
+    width: 1600px;
+    height: 900px;
+    background-color: skyblue;
+    position: absolute;
+    transform: translate(15%, -3%);
+}
+
+#proj3 {
+    width: 1600px;
+    height: 900px;
+    background-color: green;
+    position: absolute;
+    transform: translate(15%, -3%);
+}
+
+#proj4 {
+    width: 1600px;
+    height: 900px;
+    background-color: palevioletred;
+    position: absolute;
+    transform: translate(15%, -3%);
+}
+
+#proj5 {
+    width: 1600px;
+    height: 900px;
+    background-color: yellowgreen;
+    position: absolute;
+    transform: translate(15%, -3%);
+}
+
+#proj6 {
+    width: 1600px;
+    height: 900px;
+    background-color: plum;
+    position: absolute;
+    transform: translate(15%, -3%);
+}
+
+#proj7 {
+    width: 1600px;
+    height: 900px;
+    background-color: navy;
+    position: absolute;
+    transform: translate(15%, -3%);
+}
+
+#proj8 {
+    width: 1600px;
+    height: 900px;
+    background-color: turquoise;
+    position: absolute;
+    transform: translate(15%, -3%);
+}
+
+#proj9 {
+    width: 1600px;
+    height: 900px;
+    background-color: lavenderblush;
+    position: absolute;
+    transform: translate(15%, -3%);
+}
+
+#proj10 {
+    width: 1600px;
+    height: 900px;
+    background-color: lemonchiffon;
+    position: absolute;
+    transform: translate(15%, -3%);
+}
+
+#proj11 {
+    width: 1600px;
+    height: 900px;
+    background-color: peachpuff;
+    position: absolute;
+    transform: translate(15%, -3%);
+}
