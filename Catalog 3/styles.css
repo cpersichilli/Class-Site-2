@@ -3,10 +3,158 @@ body {
     width: 100%;
 }
 
-#des {
+#des1 {
     position: absolute;
     z-index: 0;
-    transform: translate(180%, 950%);
+    transform: translate(0%, 950%);
+}
+
+#mainone {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: aqua;
+    transform: translate(-1%, -3%);
+}
+
+#des2 {
+    position: absolute;
+    z-index: 0;
+    transform: translate(660%, 950%);
+}
+
+#maintwo {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: blue;
+    transform: translate(99%, -3%);
+}
+
+#des3 {
+    position: absolute;
+    z-index: 0;
+    transform: translate(1320%, 950%);
+}
+
+#mainthree {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: hotpink;
+    transform: translate(199%, -3%);
+}
+
+#des4 {
+    position: absolute;
+    z-index: 0;
+    transform: translate(1985%, 950%);
+}
+
+#mainfour {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: greenyellow;
+    transform: translate(299%, -3%);
+}
+
+#des5 {
+    position: absolute;
+    z-index: 0;
+    transform: translate(2650%, 950%);
+}
+
+#mainfive {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: blueviolet;
+    transform: translate(399%, -3%);
+}
+
+#des6 {
+    position: absolute;
+    z-index: 0;
+    transform: translate(3300%, 950%);
+}
+
+#mainsix {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: mediumvioletred;
+    transform: translate(499%, -3%);
+}
+
+#des7 {
+    position: absolute;
+    z-index: 0;
+    transform: translate(3970%, 950%);
+}
+
+#mainseven {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: orangered;
+    transform: translate(599%, -3%);
+}
+
+#des8 {
+    position: absolute;
+    z-index: 0;
+    transform: translate(4635%, 950%);
+}
+
+#maineight {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: yellow;
+    transform: translate(699%, -3%);
+}
+
+#des9 {
+    position: absolute;
+    z-index: 0;
+    transform: translate(5290%, 950%);
+}
+
+#mainnine {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: darkcyan;
+    transform: translate(799%, -3%);
+}
+
+#des10 {
+    position: absolute;
+    z-index: 0;
+    transform: translate(5955%, 950%);
+}
+
+#mainten {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: sandybrown;
+    transform: translate(899%, -3%);
+}
+
+#des11 {
+    position: absolute;
+    z-index: 0;
+    transform: translate(6340%, 950%);
+}
+
+#maineleven {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: brown;
+    transform: translate(999%, -3%);
 }
 
 #one {
@@ -124,3 +272,4 @@ body {
     left: 0px;
     
 }
+

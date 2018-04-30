@@ -1,0 +1,92 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main1 {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: aqua;
+    transform: translate(30%, -3%);
+}
+
+#main2 {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: red;
+    transform: translate(30%, 97%);
+}
+
+#main3 {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: gold;
+    transform: translate(30%, 197%);
+}
+
+#main4 {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: darkblue;
+    transform: translate(30%, 297%);
+}
+
+#main5 {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: orchid;
+    transform: translate(30%, 397%);
+}
+
+#main6 {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: cadetblue;
+    transform: translate(30%, 497%);
+}
+
+#main7 {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: peachpuff;
+    transform: translate(30%, 597%);
+}
+
+#main8 {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: brown;
+    transform: translate(30%, 697%);
+}
+
+#main9 {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: dimgrey;
+    transform: translate(30%, 797%);
+}
+
+#main10 {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: darkturquoise;
+    transform: translate(30%, 897%);
+}
+
+#main11 {
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    background-color: fuchsia;
+    transform: translate(30%, 997%);
+}
