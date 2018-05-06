@@ -16,19 +16,20 @@ body, html {
     }
 
 .week-one {
-    display: flex;
+    display: inline-flex;
     max-width: 2300px;
     max-height: 300px;
     background-color: white;
     padding: 10px;
-    margin: 40px auto;
+    margin: 10px auto;
     flex-wrap: wrap;
-    flex-direction: column
+    flex-direction: row;
+    order: 1;
 }
 
 .box-one {
     display: flex;
-    background-color: red;
+    background-color: blue;
     flex-wrap: wrap;
     max-height: 100px;
     min-width: 100px;
@@ -38,7 +39,7 @@ body, html {
 
 .box-two {
     display: flex;
-    background-color: red;
+    background-color: blue;
     flex-wrap: wrap;
     max-height: 100px;
     min-width: 100px;
@@ -49,7 +50,7 @@ body, html {
 
 .box-three {
     display: flex;
-    background-color: red;
+    background-color: blue;
     flex-wrap: wrap;
     max-height: 100px;
     min-width: 100px;
@@ -60,7 +61,7 @@ body, html {
 
 .box-four {
     display: flex;
-    background-color: red;
+    background-color: blue;
     flex-wrap: wrap;
     max-height: 100px;
     min-width: 100px;
@@ -71,7 +72,7 @@ body, html {
 
 .box-five {
     display: flex;
-    background-color: red;
+    background-color: blue;
     flex-wrap: wrap;
     max-height: 100px;
     min-width: 100px;
@@ -82,7 +83,7 @@ body, html {
 
 .box-six {
     display: flex;
-    background-color: red;
+    background-color: blue;
     flex-wrap: wrap;
     max-height: 100px;
     min-width: 100px;
@@ -93,7 +94,7 @@ body, html {
 
 .box-seven {
     display: flex;
-    background-color: red;
+    background-color: blue;
     flex-wrap: wrap;
     max-height: 100px;
     min-width: 100px;
@@ -103,19 +104,20 @@ body, html {
 }
 
 .week-two {
-    display: flex;
+    display: inline-flex;
     max-width: 2300px;
     max-height: 300px;
     background-color: white;
     padding: 10px;
-    margin: 40px auto;
+    margin: 10px auto;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
+    order: 2;
 }
 
 .box-eight {
     display: flex;
-    background-color: red;
+    background-color: blue;
     flex-wrap: wrap;
     max-height: 100px;
     min-width: 100px;
@@ -127,7 +129,7 @@ body, html {
     
 .box-nine {
     display: flex;
-    background-color: red;
+    background-color: blue;
     flex-wrap: wrap;
     max-height: 100px;
     min-width: 100px;
@@ -138,7 +140,51 @@ body, html {
 
 .box-ten {
     display: flex;
-    background-color: red;
+    background-color: blue;
+    flex-wrap: wrap;
+    max-height: 100px;
+    min-width: 100px;
+    max-width: 200px;
+    margin: 10px;
+    
+}
+
+.box-eleven {
+    display: flex;
+    background-color: blue;
+    flex-wrap: wrap;
+    max-height: 100px;
+    min-width: 100px;
+    max-width: 200px;
+    margin: 10px;
+    
+}
+
+.box-twelve {
+    display: flex;
+    background-color: blue;
+    flex-wrap: wrap;
+    max-height: 100px;
+    min-width: 100px;
+    max-width: 200px;
+    margin: 10px;
+    
+}
+
+.box-thirteen {
+    display: flex;
+    background-color: blue;
+    flex-wrap: wrap;
+    max-height: 100px;
+    min-width: 100px;
+    max-width: 200px;
+    margin: 10px;
+    
+}
+
+.box-fourteen {
+    display: flex;
+    background-color: blue;
     flex-wrap: wrap;
     max-height: 100px;
     min-width: 100px;

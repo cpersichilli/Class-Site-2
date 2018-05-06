@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+    max-height: 470px;
+    max-width: 815px;
+}
+
+img {
+    transform: translate(50%, 5%);
+    z-index: -1;
+}
+
+
+iframe {
+    height: 302px;
+    width: 165px;
+    max-width: 75%;
+    position: absolute;
+    transform: translate(186%, 20%);
+    z-index: 1;
+    
+}

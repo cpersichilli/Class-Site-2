@@ -1,0 +1,116 @@
+.alias {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    cursor: alias;
+    position: absolute;
+    margin: 30px;
+}
+
+.scroll {
+    width: 100px;
+    height: 100px;
+    background-color: indianred;
+    cursor:all-scroll;
+    position: absolute;
+    margin: 30px;
+    left: 170px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: mediumvioletred;
+    cursor:cell;
+    position: absolute;
+    margin: 30px;
+    left: 330px;
+}
+
+.orange {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    margin: 30px;
+    top: 200px
+}
+
+.orange:hover {
+    background-color: black;
+}
+
+.red {
+    width: 100px;
+    height: 100px;
+    background-color: indianred;
+    position: absolute;
+    margin: 30px;
+    left: 170px;
+    top: 200px;
+}
+
+.red:hover {
+    background-color: black;
+}
+
+.violet {
+    width: 100px;
+    height: 100px;
+    background-color: mediumvioletred;
+    position: absolute;
+    margin: 30px;
+    left: 330px;
+    top: 200px;
+}
+
+.violet:hover {
+    background-color: black;
+}
+
+.grow { 
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    margin: 30px;
+    transition: all .2s ease-in-out;
+    top: 400px;
+}
+
+.grow:hover { 
+    transform: scale(1.1); 
+}
+
+.expand { 
+    width: 100px;
+    height: 100px;
+    background-color: indianred;
+    position: absolute;
+    margin: 30px;
+    left: 170px;
+    top: 400px;
+    -webkit-transition-property: width; /* Safari */
+    -webkit-transition-duration: 2s; /* Safari */
+    transition-property: width;
+    transition-duration: 2s;
+}
+
+.expand:hover { 
+    width: 150px;
+}
+
+.spin { 
+    width: 100px;
+    height: 100px;
+    background-color: mediumvioletred;
+    position: absolute;
+    margin: 30px;
+    left: 330px; 
+    top: 400px;
+    transition: transform 1s;
+}
+
+.spin:hover { 
+    transform: rotate(1080deg);
+}

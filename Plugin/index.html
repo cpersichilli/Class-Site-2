@@ -3,31 +3,42 @@
 <head>
   <title></title>
   <meta charset = "UTF-8" />
-    <link rel="stylesheet" type="text/css" href="theme.css">    
-	<script src="jquery-3.3.1.min.js"></script>
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
-<link rel="stylesheet" href="images-compare.css">
+    <link rel="stylesheet" href="styles.css">
+    
+	<script src="average-color-master-2/js/jquery.average-color.js"></script>
+    <script src="average-color-master-2/js/jquery-latest.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 
 </head>
 <body>
-  <div class="js-img-compare">
-  <div style="display: none;">
-      <span class="images-compare-label">Before</span>
-      <img src="black-and-white-cold-fog-235621.jpg" alt="Before">
-  </div>
-  <div>
-      <span class="images-compare-label">After</span>
-      <img src="beach-bikini-carefree-968571.jpg" alt="After">
-  </div>
-</div>
     
+<img id="myImg" src="beach-bikini-carefree-968571.jpg" alt="beach" />
+<img id="myImg" src="black-and-white-cold-fog-235621.jpg" alt="woods" />
     
+
     
 </body>
+<!--
 <script src="//code.jquery.com/jquery.min.js"></script>
 <script src="jquery.images-compare.js"></script>
 <script src="hammer.min.js"></script>
+-->
+<!--
+<script>
+  var color = averageColor("path/myImage.jpg");
+  $("body").css("background", color);
+</script>
     
+-->
+    
+<script>
+  var color = $("#myImg").averageColor();
+  $("body").css("background", color);
+</script>
+    
+<script type="text/javascript" src="../js/jquery-latest.js"></script>
+<script type="text/javascript" src="../js/jquery.average-color.js"></script>
 
 </html>
+

@@ -1,1 +1,1 @@
-$('.js-img-compare').imagesCompare();
+//$('.js-img-compare').imagesCompare();
