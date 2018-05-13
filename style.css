@@ -1,0 +1,259 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+#page-wrap {
+    height: 100%;
+    width: 100%;
+}
+
+#about {
+    height: 10%;
+    width: 905%;
+    background-color: lightgray;
+    position: absolute;
+    left: -1px;
+    bottom: 0px;
+}
+
+#des1 {
+    position: absolute;
+    transform: translate(5%, 0%);
+}
+
+
+#pone {
+    position: absolute;
+    transform: translate(45%, 75%);
+    font-family: sans-serif;
+}
+
+#ptwo {
+    position: absolute;
+    transform: translate(530%, 75%);
+    font-family: sans-serif;
+}
+
+#pthree {
+    position: absolute;
+    transform: translate(550%, 75%);
+    font-family: sans-serif;
+}
+
+#pfour {
+    position: absolute;
+    transform: translate(1015%, 80%);
+    font-family: sans-serif;
+}
+
+#pfive {
+    position: absolute;
+    transform: translate(2990%, 80%);
+    font-family: sans-serif;
+}
+
+#psix {
+    position: absolute;
+    transform: translate(3000%, 80%);
+    font-family: sans-serif;
+}
+
+#pseven {
+    position: absolute;
+    transform: translate(3660%, 80%);
+    font-family: sans-serif;
+}
+
+#peight {
+    position: absolute;
+    transform: translate(3775%, 80%);
+    font-family: sans-serif;
+}
+
+#pnine {
+    position: absolute;
+    transform: translate(3300%, 80%);
+    font-family: sans-serif;
+}
+
+#pten {
+    position: absolute;
+    transform: translate(5530%, 80%);
+    font-family: sans-serif;
+}
+
+#des2 {
+    position: absolute;
+    left: 10%
+/*    transform: translate(1500%, 0%);*/
+}
+
+#des3 {
+    position: absolute;
+/*    transform: translate(2500%, 0%);*/
+    left: 19.6%
+
+}
+
+#des4 {
+    position: absolute;
+/*    transform: translate(2500%, 0%);*/
+    left: 29.56%
+
+}
+
+#des5 {
+    position: absolute;
+/*    transform: translate(2500%, 0%);*/
+    left: 39.57%
+
+}
+
+#des6 {
+    position: absolute;
+/*    transform: translate(2500%, 0%);*/
+    left: 49.56%
+
+}
+
+#des7 {
+    position: absolute;
+/*    transform: translate(2500%, 0%);*/
+    left: 59.5%
+
+}
+
+#des8 {
+    position: absolute;
+/*    transform: translate(2500%, 0%);*/
+    left: 69.5%
+
+}
+
+#des9 {
+    position: absolute;
+/*    transform: translate(2500%, 0%);*/
+    left: 79.45%
+
+}
+
+#des10 {
+    position: absolute;
+/*    transform: translate(2500%, 0%);*/
+    left: 89.45%
+
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 17pt;
+}
+
+iframe#one {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: -1px;
+    transform: translate(-3%, 0%);
+      
+}
+
+iframe#two {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: -1px;
+    transform: translate(97%, 0%);  
+}
+
+iframe#three {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: -1px;
+    transform: translate(193%, 0%);
+      
+}
+
+iframe#three {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: -1px;
+    transform: translate(193%, 0%);
+      
+}
+
+iframe#four {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: -1px;
+    transform: translate(293%, 0%);
+      
+}
+
+iframe#five {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: -1px;
+    transform: translate(393%, 0%);
+      
+}
+
+iframe#six {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: -1px;
+    transform: translate(493%, 0%);
+      
+}
+
+iframe#seven {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: -1px;
+    transform: translate(593%, 0%);
+      
+}
+
+iframe#eight {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: -1px;
+    transform: translate(693%, 0%);
+      
+}
+
+iframe#nine {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: -1px;
+    transform: translate(793%, 0%);
+      
+}
+
+iframe#ten {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: -1px;
+    transform: translate(893%, 0%);
+      
+}
+
