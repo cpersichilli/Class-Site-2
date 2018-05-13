@@ -1,90 +1,116 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html lang = "en">
 <head>
-	<meta charset="UTF-8">
-<!--	<script src="scripts.js"></script>-->
-	<link rel="stylesheet" href="styles.css">
-	<title>Class Site</title>
+  <title></title>
+  <meta charset = "UTF-8" />
+    <link rel="stylesheet" type="text/css" href="theme.css">    
+	<script src="jquery-3.3.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="style.css">
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="jquery.mousewheel.js"></script>
+	<script>
+	$(function(){
+		$("#page-wrap").wrapInner("<table cellspacing='30'><tr>");
+		$(".post").wrap("<td></td>");
+		$("body").mousewheel(function(event, delta) {
+			this.scrollLeft -= (delta * 30);
+			event.preventDefault();
+		});   
+	});
+	</script>
+    
+    
 </head>
 <body>
-    <div id="mainone">
-        <iframe id="one" src="https://www.are.na/caitlin-persichilli/image-journal-1517533847"></iframe>
-    </div>
-    <div id="maintwo">
-        <iframe id="two" src="All_HTML/index1.html"></iframe>
-    </div>
-    <div id="mainthree">
-        <iframe id="three" src="http://ami.responsivedesign.is"></iframe>
-    </div>
-    <div id="mainfour">
-        <iframe id="four" src="http://ami.responsivedesign.is"></iframe>
-    </div>
-    <div id="mainfive">
-        <iframe id="five" src="http://ami.responsivedesign.is"></iframe>
-    </div>
-    <div id="mainsix">
-        <iframe id="six" src="http://ami.responsivedesign.is"></iframe>
-    </div>
-    <div id="mainseven">
-        <iframe id="seven" src="http://ami.responsivedesign.is"></iframe>
-    </div>
-    <div id="maineight">
-        <iframe id="eight" src="http://ami.responsivedesign.is"></iframe>
-    </div>
-    <div id="mainnine">
-        <iframe id="nine" src="http://ami.responsivedesign.is"></iframe>
-    </div>
-    <div id="mainten">
-        <iframe id="ten" src="http://ami.responsivedesign.is"></iframe>
-    </div>
-    <div id="maineleven">
-        <iframe id="three" src="http://ami.responsivedesign.is"></iframe>
+    <div id="page-wrap">
+        <div class="post">
+            <iframe id="one" frameborder="0" src="https://www.are.na/caitlin-persichilli/image-journal-1517533847" frameborder="1"></iframe>  
+            <iframe id="two" frameborder="0" src="All_HTML/index1.html" frameborder="1"></iframe>
+            <iframe id="three" frameborder="0" src="Mashup/index.html"></iframe>
+            <iframe id="four" frameborder="0" src="Clock/index.html"></iframe>
+            <iframe id="five" frameborder="0" src="Still_Life/index.html"></iframe>
+            <iframe id="six" frameborder="0" src="Annimation/index1.html"></iframe>
+            <iframe id="seven" frameborder="0" src="Hover/index.html"></iframe>
+            <iframe id="eight" frameborder="0" src="jquery/index.html"></iframe>
+            <iframe id="nine" frameborder="0" src="ResponsivePage/index.html"></iframe>
+            <iframe id="ten" frameborder="0" src="FlexboxCalender/indextwo.html"></iframe>
+
+        
+        
+        
+        
+        </div>
+        <div id="about">
+            <div id="des1">
+            <a href="https://www.are.na/caitlin-persichilli/image-journal-1517533847"><h3>Image Journal</h3></a>
+            </div>
+            
+            <p id="pone">Collection of images that inspired me throughout the semester.</p>
+            
+            <div id="des2">
+            <a href="All_HTML/index1.html"><h3>All HTML</h3></a>
+            </div>
+            
+            <p id="ptwo">Webpages created using solely HTML.</p>
+            
+            <div id="des3">
+            <a href="Mashup/index.html"><h3>Mashup</h3></a>
+            </div>
+            
+            <p id="pthree">Site meant to feel as if you were constantly waiting for content to load.</p>
+            
+            <div id="des4">
+            <a href="Clock/index.html"><h3>Clock</h3></a>
+            </div>
+            
+            <p id="pfour">Combination of relaxing and discomforting annimations.</p>
+            
+            <div id="des5">
+            <a href="Still_Life/index.html"><h3>Still Life</h3></a>
+            </div>
+            
+            <p id="pfive">Still life created with divs.</p>
+            
+            <div id="des6">
+            <a href="Annimation/index1.html"><h3>Annimation</h3></a>
+            </div>
+            
+            <p id="psix">Annimations created using css.</p>
+            
+            <div id="des7">
+            <a href="Hover/index.html"><h3>Hover</h3></a>
+            </div>
+            
+            <p id="pseven">Exercise utilizing hover states.</p>
+            
+            <div id="des8">
+            <a href="jquery/index.html"><h3>jQuery</h3></a>
+            </div>
+            
+            <p id="peight">Exercise utilizing jQuery functions.</p>
+            
+            <div id="des9">
+            <a href="ResponsivePage/index.html"><h3>Responsive Page</h3></a>
+            </div>
+            
+            <p id="pnine">Webpage created with responsive properties.</p>
+            
+            <div id="des10">
+            <a href="FlexboxCalender/indextwo.html"><h3>Flexbox Calender</h3></a>
+            </div>
+            
+            <p id="pten">Calender created with flexbox.</p>
+            
+        </div>
+        
+        
     </div>
     
-    <div id="des1">
-        <h3>Image Journal</h3>
-        <p>description goes here</p>
-    </div>
-    <div id="des2">
-        <h3>All HTML</h3>
-        <p>description goes here</p>
-    </div>
-    <div id="des3">
-        <h3>Mashup</h3>
-        <p>description goes here</p>
-    </div>
-    <div id="des4">
-        <h3>Clock</h3>
-        <p>description goes here</p>
-    </div>
-    <div id="des5">
-        <h3>Still Life</h3>
-        <p>description goes here</p>
-    </div>
-    <div id="des6">
-        <h3>Annimation</h3>
-        <p>description goes here</p>
-    </div>
-    <div id="des7">
-        <h3>Hover</h3>
-        <p>description goes here</p>
-    </div>
-    <div id="des8">
-        <h3>jQuery</h3>
-        <p>description goes here</p>
-    </div>
-    <div id="des9">
-        <h3>Plugins</h3>
-        <p>description goes here</p>
-    </div>
-    <div id="des10">
-        <h3>Responsive Page</h3>
-        <p>description goes here</p>
-    </div>
-    <div id="des11">
-        <h3>Flexbox Calender</h3>
-        <p>description goes here</p>
-    </div>
     
-    </body>
+    
+    
+</body>
 </html>
